@@ -9,5 +9,5 @@ title: {type: DataTypes.STRING },
 content: {type: DataTypes.STRING }
 
 })
-console.log(ModeloPelicula);
+//console.log(ModeloPelicula);
 module.exports.ModeloPelicula = ModeloPelicula;
