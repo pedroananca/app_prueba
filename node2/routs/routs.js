@@ -9,12 +9,13 @@ router.get('/', createOneMovie);
 router.post('/', createOneMovie);
 router.delete('/:id',deleteOneMovie);
 //put lo que realiza es actualizar
-router.put('/:id',deleteOneMovie);
+router.put('/:id',updateOneMovie);
 
-
+/*
 router.get('/',(req,res)=>{
 console.log("Paso 1 realizado");
 res.send(`<h1>Todo bien y funcionando</h1>`);
 
-});
+}); */
+
 module.exports.inicio = router; 

@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "starting": "node ./controllers/index.js",
-    "test_db":"node ./models/models.js"
-
+    "test_db": "node ./models/models.js"
   },
   "keywords": [],
   "author": "",

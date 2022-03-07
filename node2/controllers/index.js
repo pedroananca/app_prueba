@@ -21,4 +21,4 @@ try{
 server_app.listen(server_app.get('port'),() =>{console.log('server on port',server_app.get('port'))});
 ;// configuración de nuestro servidor
 server_app.use('/movie',routes.inicio);
-console.log("Terminado al final");
+console.log("Terminado al final"); 
