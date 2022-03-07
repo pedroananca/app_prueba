@@ -5,7 +5,7 @@ const {ModeloPelicula} = require('./models');
 // select*from table
 const getAllMovies = async(req,res)=>{ 
  try{
- const Peliculas =await ModeloPelicula.findAll();
+ const Peliculas =await ModeloPelicula.findAll({attributes:['id_pelidula','title','content']});
  res.json(Peliculas);
  }catch(error){
  res.json({message: 'no se encontraron instancias'})

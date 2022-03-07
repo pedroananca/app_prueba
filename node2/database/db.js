@@ -5,8 +5,10 @@
 // sequelize permite conectarme a una base de datos
 const { Sequelize } = require('sequelize');
 const database = new Sequelize('peliculas','root','Pc199818',{
-host:'localhost',
+host:'127.0.0.1',
+port:'3306',
 dialect:'mysql'
+
 }
 );
 
